@@ -16,6 +16,22 @@ class LineCompareOOPSUC1{
 		System.out.println("\nTwo lines are unequal");
 		
 		}
+		
+	}
+	public static void chk_equal(float len_a,float len_b)
+	{
+	
+		 if (Float.compare(len_a, len_b)<0) {
+			System.out.printf("Line 1 : %.2f ,is shorter than line 2:  %.2f",len_a,len_b);
+		 }
+			
+		else if (Float.compare(len_a, len_b)==1) {
+			System.out.printf("Line 1 :%.2f is greater than line 2  :%.2f",len_a,len_b);
+			
+			
+			
+				
+		}
 	}
 }  
 
